@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex items-center justify-center h-screen bg-zinc-700">
+        <div class="bg-zinc-800 p-2 mx-6 rounded-2xl">
+            <!-- Flex Container -->
+        <div class="flex flex-col md:flex-row rounded-l-xl">
+            <!-- image -->
+            <img src="./images/solo2.png" alt=""
+            class="object-fit h-80 rounded-xl transform md:h-60 md:rounded-l-xl md:rounded-r-none hover:scale-105 hover:rounded-xl duration-500"
+            >
+            <!-- content -->
+            <div class="p-6 md:p-12">
+            <h2 class="text-white text-xl font-medium md:text-left text-center font-serif">Solo Levelling Animation Has Started</h2>
+            <p class="text-white text-xs d:text-left text-center font-serif max-w-sm mt-3">Solo leveling is one of the best manga out there. :)</p>
+            <div class="flex flex-col pt-5 space-y-4 md:space-y-0 md:space-x-3 md:flex-row">
+                <input 
+                type="text"
+                placeholder="Enter Your Email Address"
+                class="bg-zinc-800 p-2 px-4 text-white border border-zinc-700 text-center text-center
+                placeholder:text-xs placeholder:text-center placeholder:md:text-left md:text-left
+                focus:outline-none
+                "
+                />
+                <button 
+                class="bg-lime-500 text-white text-center px-5 py-3 text-md rounded-lg
+                text-zinc-700 duration-200 hover:text-white
+                ">
+                    Subscribe
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
